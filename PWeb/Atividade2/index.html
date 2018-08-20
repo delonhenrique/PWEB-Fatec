@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PWeb - Fatec/SO - 2sem/2018 - Atividade 2</title>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+            .interno {
+                color:red;
+                font-size: 10px;
+                background-color: aquamarine;
+                float: right;
+                width: 50%;
+            }
+        </style>
+
+        <link rel="stylesheet" type="text/css" href="http://desenvolvimentohtmlecss.hol.es/PWeb/Atividade2/estilo.css" />
+        
+    </head>
+
+    <body>
+        <div  style="background-color:green; color: white;   width: 30%;  height:100px;">
+            <h1>Bloco CSS inline</h1>
+        </div> 
+
+        <p class="interno">Paragrafo usando o estilo interno</p>
+
+        <p>Paragrafo usando o estilo externo</p>
+
+        <p style="background-color:green; color: white;   width: 30%;  height:100px;">
+            Tentando sobrescrever o estilo externo pelo inline
+        </p>
+
+        <p class="interno" style="background-color:green; color: white;   width: 30%;  height:100px;">
+            Tentando sobrescrever o estilo interno pelo inline
+        </p>
+        <p></p>
+        <h2>Conclusão</h2>
+        <h3>O CSS inline irá substituir o css externo e o interno mas manterá 
+            características que não foram aplicadas no inline como o "float: right;" utilizado no css interno
+            e o "height: 200px;" usado no css externo.
+        </h3>
+    </body>
+</html>
